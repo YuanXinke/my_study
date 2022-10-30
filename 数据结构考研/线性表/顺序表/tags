@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GetElem	static_sequence_list.c	/^int GetElem(SqList *L, int i) $/;"	f
+InitList	static_sequence_list.c	/^void InitList(SqList *L) $/;"	f
+ListDelete	static_sequence_list.c	/^bool ListDelete(SqList *L, int i,int *e) $/;"	f
+ListInsert	static_sequence_list.c	/^bool ListInsert(SqList *L, int i,int e)$/;"	f
+LocateElem	static_sequence_list.c	/^int LocateElem(SqList *L, int e)$/;"	f
+MaxSize	static_sequence_list.c	/^#define MaxSize /;"	d	file:
+SqList	static_sequence_list.c	/^}SqList;$/;"	t	typeref:struct:__anon1	file:
+bool	static_sequence_list.c	/^typedef unsigned char bool;$/;"	t	file:
+data	static_sequence_list.c	/^	int data[MaxSize]; \/\/静态的数组存数据，存int数据$/;"	m	struct:__anon1	file:
+false	static_sequence_list.c	/^	false = 0,$/;"	e	enum:__anon2	file:
+length	static_sequence_list.c	/^	int length;		   \/\/顺序表的当前长度$/;"	m	struct:__anon1	file:
+main	static_sequence_list.c	/^int main()$/;"	f
+true	static_sequence_list.c	/^	true,$/;"	e	enum:__anon2	file:
